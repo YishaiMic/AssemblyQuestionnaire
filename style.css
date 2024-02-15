@@ -21,6 +21,12 @@ body {
   position: relative;
 }
 
+#migologo {
+  max-width: 40vw; /* Set the maximum width of the image to 50% of the viewport width */
+  width: auto; /* Allow the image to scale down proportionally */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
 #quiz-container {
   position: absolute;
   top: 50%;
